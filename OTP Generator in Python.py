@@ -28,13 +28,10 @@ entry.bind("<Return>", OTPGenerator)
 entry.pack()
 res = tk.Label(w)
 res.pack()
-btn = Button(w, text = '  Exit  ', bd = '3', command = w.destroy)      
+btn = tk.Button(w, text = '  Exit  ', bd = '3', command = w.destroy)      
 btn.place(x=200,y=150) 
 w.mainloop()
-
-
-# In[ ]:
-
+#codedbyanshika
 
 
 
