@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[116]:
+
 
 
 import random
@@ -17,6 +17,7 @@ def OTPGenerator(event):
     
 w = tk.Tk()
 w.geometry("450x200")
+w.resizable(False, False)
 w.title("OTP Generation Program")
 tk.Label(w, text="ONE  TIME  PASSWORD(OTP)  GENERATOR", font="Helvetica 11 bold",fg="Red" ).pack(side="top")
 tk.Label(w).pack()
